@@ -1,5 +1,5 @@
 import './App.css'
-import Habits from './components/HabitList'
+import Habits from './App/HabitList'
 
 function App() {
 
