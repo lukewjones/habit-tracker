@@ -9,9 +9,7 @@ export default function Habits() {
 
     // Save habits to localStorage when habitsArr changes
     useEffect(() => {
-        if (habitsArr.length > 0) {
-            localStorage.setItem('habits', JSON.stringify(habitsArr))
-        }
+        localStorage.setItem('habits', JSON.stringify(habitsArr))
     }, [habitsArr])
 
     // Load habits from localStorage on component mount
